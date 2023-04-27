@@ -1,0 +1,14 @@
+
+  <div class="asker">
+    <p><%= @question %></p>
+    <p class="speaker">You</p>
+  </div>
+
+  <div id="coach" class="coach">
+    <p><b><%= @answer %></b><p>
+    <p class="speaker">Your coach<p>
+  </div>
+
+  <%# <div class="back"> %>
+    <%= link_to "Ask another Question", ask_path %>
+  <%# <div> %>
